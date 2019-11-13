@@ -16,8 +16,8 @@ setup(
     packages=["pytest_docker_py"],
     package_dir={"": "src"},
     install_requires=[
-        "pytest==4.0.0",
-        "docker==3.5.1"
+        "pytest~=5.2.0",
+        "docker~=4.1.0"
     ],
     keywords="pytest plugin docker-py",
     entry_points={"pytest11": ["pytest-docker-py = pytest_docker_py.plugin"]},
